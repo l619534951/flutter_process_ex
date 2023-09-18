@@ -1,0 +1,22 @@
+name: process_ex_platform_interface
+description: A common platform interface for the process_ex plugin.
+repository: https://github.com/l619534951
+issue_tracker: https://github.com/l619534951
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+version: 0.0.1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.0
+  flutter_lints: ^2.0.0
